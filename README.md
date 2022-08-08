@@ -20,7 +20,7 @@
 In the terminal within VSCode, clone the repository using the following HTTPS command:
 <br/>
 
-    `git clone https://github.com/jordan-willss/automation-cypress-assessment-1.git`
+    git clone https://github.com/jordan-willss/automation-cypress-assessment-1.git
 
 </li>
 <li>
