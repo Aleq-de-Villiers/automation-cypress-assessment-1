@@ -2,7 +2,7 @@
   "name": "automation-cypress-assessment",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
+  "type": "CommonJS",
   "main": "index.js",
   "scripts": {
     "test": "jest assessment.spec.js"

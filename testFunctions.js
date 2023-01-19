@@ -15,7 +15,7 @@ export function numbers() {
 
     
     
-    // YOUR CODE HERE
+    response = (a + b) * 9 - c
 
 
 
@@ -41,8 +41,9 @@ export function strings() {
     // ----------- DO NOT EDIT ABOVE -----------
 
     
-
-    // YOUR CODE HERE
+    let a_b = a.split(" ")
+    let c_b = c.split(" ")
+    response = [a_b[0], c_b[1], c_b[0], [a_b[1], b].join("")].join(" ")
 
 
 
@@ -68,8 +69,11 @@ export function arrays() {
     // ----------- DO NOT EDIT ABOVE -----------
 
     
-
-    // YOUR CODE HERE
+    response = []
+    for (let i = 0; i < a.length; i++) {
+        response.push(a[i])
+        response.push(b[i])
+    }
 
 
 
@@ -105,7 +109,7 @@ export function objects() {
 
 
     
-    // YOUR CODE HERE
+    response = [a.location.city, a.interests[1]].join(" & ")
 
 
 
@@ -132,7 +136,11 @@ export function conditionals() {
 
 
 
-    // YOUR CODE HERE
+    if (isGreenLight) {
+        response = "Green Light!"
+    } else {
+        response = "Red Light!"
+    }
 
 
 
@@ -154,10 +162,11 @@ export function loops() {
 
     // ----------- DO NOT EDIT ABOVE -----------
 
-    
+    let counter_b = arr.length * 2.5
 
-    // YOUR CODE HERE
-
+    for (let i = 0; i < arr.length; i++) {
+        counter += 2.5
+    }
 
 
     // ----------- DO NOT EDIT BELOW -----------
